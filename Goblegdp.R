@@ -1,5 +1,3 @@
-mainfolder <- "C:/Users/Admin/OneDrive/Desktop/MULAA/"
-  setwd(mainfolder)
 gdp <- read.table(file = "GDPdata.csv", header = TRUE, sep = ",")
 summary(gdp)
 str(gdp)
