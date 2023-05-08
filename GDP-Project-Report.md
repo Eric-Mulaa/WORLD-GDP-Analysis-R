@@ -33,8 +33,6 @@ library(GGally)
 Load the dataset which is in comma separated value (csv)format
 
 ``` r
-mainfolder <- "C:/Users/Admin/OneDrive/Desktop/MULAA/"
-  setwd(mainfolder)
 gdp <- read.table(file = "GDPdata.csv", header = TRUE, sep = ",")
 ```
 
